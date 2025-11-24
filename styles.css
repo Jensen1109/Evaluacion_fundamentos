@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --fondo-body:aqua;
+}
+body{
+    background-color:var(--fondo-body);
+}
