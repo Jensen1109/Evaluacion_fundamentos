@@ -4,7 +4,7 @@ export const validarAcceso = function(edad, contraseña){
     let acceso = false;
     
     // Verificar que la edad sea mayor a 18 y la contraseña este correcta
-    if(edad > 18 && contraseña === "h123"){
+    if(edad >= 18 && contraseña === "h123"){
         // Conceder acceso si ambas condiciones se cumplen
         return acceso = true;
     } else {
