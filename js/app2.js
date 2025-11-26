@@ -1,11 +1,10 @@
 
-import { validarAcceso } from "../modules/validaracceso"
+import { validarAcceso } from "../modules/validaracceso.js"
 
-export function validacion()
-{
-    edad = Number(prompt("Ingrese la edad: "))
 
-    contraseña = prompt("Ingrese la contraseña: ")
+    let edad = Number(prompt("Ingrese la edad: "))
+
+    let contraseña = prompt("Ingrese la contraseña: ")
 
     if (validarAcceso(edad,contraseña))
     {
@@ -14,7 +13,5 @@ export function validacion()
     else{
         alert("Acceso denegado")
     }
-
-}
 
 
